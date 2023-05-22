@@ -327,6 +327,7 @@ a {
     flex-direction: column-reverse;
     gap: 1rem;
     margin-top: 2rem;
+    min-height: 100dvh;
   }
   .hero-img {
     margin-top: 2rem;
