@@ -331,8 +331,8 @@ a {
   }
   .hero-img {
     margin-top: 2rem;
-    min-height: 10rem;
-    max-width: 15rem;
+    min-height: 15rem;
+    max-width: 17rem;
     padding: 0;
   }
   .hero-text {
