@@ -323,13 +323,15 @@ a {
   .mobnav {
     display: flex;
   }
+  .hero {
+    height: 100vh;
+  }
   .hero-content {
     flex-direction: column-reverse;
     gap: 1rem;
     margin-top: 2rem;
   }
   .hero-img {
-    margin-top: 2rem;
     min-height: 10rem;
     max-width: 15rem;
     padding: 0;
