@@ -323,6 +323,9 @@ a {
   .mobnav {
     display: flex;
   }
+  .hero {
+    min-height: 100vh;
+  }
   .hero-content {
     flex-direction: column-reverse;
     gap: 1rem;
