@@ -96,7 +96,9 @@ nav ul a:hover,
 nav a:active {
   color: #000000;
 }
-
+.hero {
+  min-height: 100vh;
+}
 .hero-content {
   display: flex;
   gap: 3rem;
@@ -224,8 +226,8 @@ nav a:active {
 }
 .about-text p {
   color: #767676;
-  font-size: 1.4rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 600;
   line-height: 1.2;
   color: gray;
 }
@@ -275,6 +277,10 @@ footer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
+.contact__icon-box h3 {
+  margin: 0;
+}
+
 .fa-solid,
 .fas {
   font-weight: 900;
@@ -302,15 +308,12 @@ a {
 }
 @media (max-width: 900px) {
   .content {
-    padding: 0 1rem;
-    align-items: center;
+    padding: 0 2rem;
   }
   .mobnav {
     display: flex;
   }
-  .hero {
-    min-height: 100vh;
-  }
+
   .hero-content {
     flex-direction: column-reverse;
     gap: 1rem;
@@ -376,19 +379,23 @@ a {
     border-radius: 5%;
   }
   .about-img p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   ul {
     margin: 0;
   }
   .contact__icons {
-    gap: 2rem;
+    gap: 3rem;
   }
   .contact__icons {
     margin-top: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
   .contact__icons span {
     padding: 0.5rem;
+    width: 3rem;
   }
 
   footer {
