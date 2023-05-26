@@ -15,6 +15,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Signika Negative", sans-serif;
   font-family: poppins;
+  width: 100%;
 }
 .container {
 }
@@ -237,9 +238,17 @@ h3 {
 h2 {
   margin-bottom: 1rem;
 }
+.cardbtn {
+  display: flex;
+  align-items: center;
+}
 .projects {
   padding: 2rem 0;
 }
+.projects-items a {
+  text-align: center;
+}
+
 .contact-content i {
   font-size: 2rem;
 }
@@ -297,6 +306,9 @@ footer {
   font-size: 1.2rem;
   text-decoration: none;
 }
+footer h3 {
+  font-size: 1.5rem;
+}
 footer h3,
 a {
   color: #fff;
@@ -319,7 +331,7 @@ a {
     gap: 1rem;
     margin-top: 5rem;
   }
-  .hero-img {
+  img {
     margin-top: 2rem;
     min-height: 14rem;
     max-width: 15rem;
