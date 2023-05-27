@@ -3,8 +3,8 @@ const data = fetch("https://api.kanye.rest/")
   .then((response) => response.json())
   .then((data) => (p.innerText = data.quote + "\n- Kanye West"));
 
-p.innerText = data.quote;
-console.log(data);
+/* _________________________________________________ */
+// navigation toggle
 document.querySelector(".hero-text").append(p);
 
 let nav = document.getElementById("navlist");
