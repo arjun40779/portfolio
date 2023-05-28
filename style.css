@@ -123,7 +123,9 @@ nav a:active {
   margin-bottom: 1rem;
   font-size: 3rem;
 }
-
+.img {
+  margin: auto;
+}
 .hero-text p {
   font-size: 1.5rem;
   color: gray;
@@ -390,6 +392,9 @@ a {
   }
   .about-img p {
     font-size: 1.5rem;
+  }
+  ul {
+    margin: 0;
   }
   .contact__icons {
     gap: 3rem;
