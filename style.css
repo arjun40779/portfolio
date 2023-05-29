@@ -28,9 +28,10 @@ body {
 }
 
 .mobnav {
+  display: none;
   position: fixed;
   width: 100%;
-  background: linear-gradient(to left, #070707, #0c0c0cb0);
+  background: linear-gradient(to left, #070707, #0c0c0c4f);
   height: 4rem;
   display: none;
   color: #fff;
@@ -169,20 +170,20 @@ nav a:active {
 .skills ul li {
   align-items: center;
   background-color: #fff;
-  border-radius: 50%;
+  border-radius: 25%;
   box-shadow: 0 0 30px #1a191963;
   cursor: pointer;
   display: flex;
-  height: 3.5rem;
+  height: 3rem;
   justify-content: center;
-  width: 3.5rem;
+  width: 3rem;
 }
 .skills ul li:hover {
   box-shadow: 0 20px 20px #00000063;
 }
 .skills ul li img {
   height: auto;
-  width: 2.5rem;
+  width: 2rem;
   border-radius: 20%;
 }
 #mongo {
@@ -197,46 +198,42 @@ nav a:active {
 .about-img {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  padding-left: 15rem;
-  padding-bottom: 2rem;
+  justify-content: end;
+  padding: 1rem;
+  align-items: end;
   font-size: 2rem;
-  font-weight: 800;
   background-image: url(./about-imgv.avif);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 24rem;
+  min-width: 20rem;
   max-width: 32rem;
-  border-radius: 10%;
+  border-radius: 5%;
   box-shadow: 0 0 30px #0000005d;
-  padding-right: 2rem;
 }
 .about-img p {
   margin: 0;
 }
 
 .about-text {
-  padding-left: 2rem;
-  padding-right: 2rem;
   box-shadow: 0 0 10px #1a191963;
   min-height: 24rem;
   max-width: 35rem;
-  border-radius: 10%;
-  padding: 2rem 2rem;
+  border-radius: 5%;
+  padding: 1rem;
 }
 .about-text p {
   color: #767676;
   font-size: 1.2rem;
-  font-weight: 600;
   line-height: 1.2;
   color: gray;
 }
 h3 {
-  color: blueviolet;
+  color: #57c289;
 }
 h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.5rem;
 }
 .cardbtn {
   display: flex;
@@ -281,10 +278,7 @@ footer {
   gap: 1.5rem;
 }
 .contact__icon-box span {
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
 .contact__icon-box h3 {
   margin: 0;
@@ -318,9 +312,9 @@ a {
   gap: 2rem;
   font-size: 2rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .content {
-    padding: 0 2rem;
+    padding: 0 0;
   }
   .mobnav {
     display: flex;
