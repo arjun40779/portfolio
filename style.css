@@ -242,12 +242,21 @@ h2 {
 .projects {
   padding: 2rem 0;
 }
+.project-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
 .projects-items a {
   text-align: center;
 }
 
 .contact-content i {
   font-size: 2rem;
+}
+.card-img,
+.card-img-top {
+  height: 10rem;
 }
 footer {
   margin-top: 2rem;
