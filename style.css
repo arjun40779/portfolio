@@ -259,6 +259,9 @@ h2 {
 .card-img-top {
   height: 10rem;
 }
+a.btn.btn-dark {
+    margin-right: 1.5rem;
+}
 footer {
   margin-top: 2rem;
   background-color: #2d2e32;
