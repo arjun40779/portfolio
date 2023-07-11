@@ -209,14 +209,14 @@ nav a:active {
   min-width: 20rem;
   max-width: 32rem;
   border-radius: 5%;
-  box-shadow: 0 0 30px #0000005d;
+/*   box-shadow: 0 0 30px #0000005d; */
 }
 .about-img p {
   margin: 0;
 }
 
 .about-text {
-  box-shadow: 0 0 10px #1a191963;
+ /*  box-shadow: 0 0 10px #1a191963; */
   min-height: 24rem;
   max-width: 35rem;
   border-radius: 5%;
