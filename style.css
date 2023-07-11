@@ -26,7 +26,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.hero {
+  display: grid;
+  align-items: center;
+}
 .mobnav {
   display: none;
   position: fixed;
@@ -66,10 +69,10 @@ body {
   background: inherit;
 }
 .navbar {
-  background: linear-gradient(to left, #070707, #6161614f, #0c0c0c4f);
+  background: transparent;
   display: flex;
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px rgba(0, 0, 0, 0.09);
@@ -80,7 +83,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  color: #fff;
+  color: black;
   z-index: 1;
 }
 
@@ -104,7 +107,7 @@ nav a:active {
 .hero-content {
   display: flex;
   gap: 3rem;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 .hero-img {
   padding-top: 3rem;
@@ -122,7 +125,7 @@ nav a:active {
 .hero-text h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 3rem;
+  /*  font-size: 3rem; */
 }
 .img {
   margin: auto;
@@ -134,7 +137,7 @@ nav a:active {
 .hero-icons {
   display: flex;
   gap: 2rem;
-  padding: 1rem 0;
+  /*  padding: 1rem 0; */
 }
 
 .hero-icons a {
@@ -142,7 +145,7 @@ nav a:active {
   color: #181717;
 }
 .skills {
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   align-items: center;
   bottom: 0;
   color: #767676;
@@ -209,14 +212,14 @@ nav a:active {
   min-width: 20rem;
   max-width: 32rem;
   border-radius: 5%;
-/*   box-shadow: 0 0 30px #0000005d; */
+  /* box-shadow: 0 0 30px #0000005d; */
 }
 .about-img p {
   margin: 0;
 }
 
 .about-text {
- /*  box-shadow: 0 0 10px #1a191963; */
+  /*   box-shadow: 0 0 10px #1a191963; */
   min-height: 24rem;
   max-width: 35rem;
   border-radius: 5%;
@@ -235,17 +238,18 @@ h2 {
   margin-bottom: 0.6rem;
   font-size: 1.5rem;
 }
+
 .cardbtn {
   display: flex;
   align-items: center;
 }
 .projects {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .project-content {
   display: flex;
-  flex-wrap:wrap;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
   justify-content: center;
 }
 .projects-items a {
@@ -260,20 +264,15 @@ h2 {
   height: 10rem;
 }
 a.btn.btn-dark {
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
-footer {
-  margin-top: 2rem;
-  background-color: #2d2e32;
-  padding: 1rem 3rem;
-  width: 100%;
-}
+
 .footerc {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   justify-content: space-between;
-  padding: 0 5rem;
+  padding: 0 2.5rem;
 }
 .contact__content {
   display: flex;
@@ -296,7 +295,6 @@ footer {
 .contact__icon-box h3 {
   margin: 0;
 }
-
 .fa-solid,
 .fas {
   font-weight: 900;
@@ -313,17 +311,33 @@ footer {
   font-size: 1.2rem;
   text-decoration: none;
 }
+footer {
+  background: transparent;
+  color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0px 2px 2px rgb(0, 0, 0, 0.09), 0px -1px 2px rgb(0, 0, 0, 0.8);
+}
+#contact {
+  margin-bottom: 4rem;
+}
 footer h3 {
   font-size: 1.5rem;
 }
 footer h3,
 a {
-  color: #fff;
+  color: black;
 }
 .footerc__socials {
   display: flex;
   gap: 2rem;
   font-size: 2rem;
+}
+.card {
+  width: 16rem;
 }
 @media (max-width: 1000px) {
   .content {
@@ -418,7 +432,11 @@ a {
   }
 
   footer {
-    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
   }
   footer h3 {
     font-size: 1rem;
@@ -437,4 +455,7 @@ a:hover {
 }
 h3 {
   margin: 1rem 0;
+}
+footer h3 {
+  margin: 0;
 }
