@@ -253,6 +253,13 @@ h2 {
   gap: 1rem;
   justify-content: center;
 }
+.project-items {
+    
+    transition: transform 0.3s ease-in;
+}
+.project-items:hover {
+    transform: scale(1.1);
+}
 .projects-items a {
   text-align: center;
 }
